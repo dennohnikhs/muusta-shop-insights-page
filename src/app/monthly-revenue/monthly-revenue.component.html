@@ -1,0 +1,57 @@
+<div class="grid grid-cols-1 lg:grid-cols-2 pt-[2rem]">
+  <div>
+    <h1 class="text-lg text-black font-semibold">Monthly Revenue</h1>
+    <!-- line chart here -->
+    <div class="mt-[10rem]">line chart here</div>
+  </div>
+  <div class="shadow-lg p-[2rem] rounded-lg">
+    <h1 class="text-lg font-semibold text-[#0095F6] py-3">Payout Frequency</h1>
+
+    <div class="grid grid-cols-1 lg:grid-cols-8 pb-[2rem]">
+      <div
+        class="h-[50px] w-[50px] bg-[#FBD5D5] rounded-lg hidden lg:block"
+      ></div>
+
+      <div class="whitespace-nowrap font-md text-md col-span-6">
+        <h1 class="py-3">Total Payouts</h1>
+        <div>
+          <span
+            role="progressbar"
+            aria-labelledby="ProgressLabel"
+            aria-valuenow="75"
+            class="block rounded-full bg-gray-200"
+          >
+            <span
+              class="block h-3 rounded-full bg-[#EA2F2F]"
+              style="width: 75%"
+            ></span>
+          </span>
+        </div>
+      </div>
+      <div class="whitespace-nowrap mt-5">30% decrease</div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-8">
+      <div
+        class="h-[50px] w-[50px] bg-[#D5FBEB] rounded-lg hidden lg:block"
+      ></div>
+
+      <div class="whitespace-nowrap font-md text-md col-span-6">
+        <h1 class="py-3">Pending Payouts</h1>
+        <div>
+          <span
+            role="progressbar"
+            aria-labelledby="ProgressLabel"
+            aria-valuenow="75"
+            class="block rounded-full bg-gray-200"
+          >
+            <span
+              class="block h-3 rounded-full bg-[#2FEA9B]"
+              style="width: 50%"
+            ></span>
+          </span>
+        </div>
+      </div>
+      <div class="whitespace-nowrap mt-5">50% increase</div>
+    </div>
+  </div>
+</div>
