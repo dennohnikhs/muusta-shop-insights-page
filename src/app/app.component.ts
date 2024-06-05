@@ -2,7 +2,6 @@ import { Component } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { SidebarFiltersComponent } from "./products-sidebar/sidebar-filters.component";
-import { ProductPostTopComponent } from "./product-post-top/product-post-top.component";
 import { ShopInsightsOverviewComponent } from "./shop-insights-overview/shop-insights-overview.component";
 import { MonthlyOrdersComponent } from "./monthly-orders/monthly-orders.component";
 import { MonthlyRevenueComponent } from "./monthly-revenue/monthly-revenue.component";
@@ -15,7 +14,6 @@ import { PaymentsOverviewComponent } from "./payments-overview/payments-overview
     RouterOutlet,
     NavbarComponent,
     SidebarFiltersComponent,
-    ProductPostTopComponent,
     ShopInsightsOverviewComponent,
     MonthlyOrdersComponent,
     MonthlyRevenueComponent,
