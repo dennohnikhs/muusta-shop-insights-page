@@ -1,0 +1,225 @@
+<div class="flex flex-col ">
+  <div
+    class="border border-[#E7EAEE] rounded-lg px-3 flex flex-row gap-2 items-center"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="18"
+      height="18"
+      class="main-grid-item-icon"
+      fill="none"
+      stroke="#64748B"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    >
+      <circle cx="11" cy="11" r="8" />
+      <line x1="21" x2="16.65" y1="21" y2="16.65" />
+    </svg>
+
+    <input
+      type="text"
+      placeholder="search for product"
+      class="py-3 outline-none w-full"
+    />
+  </div>
+  <div class="flex justify-center gap-3 py-[0.5rem]">
+    <div class="bg-[#E7EAEE] flex justify-center items-center w-full">
+      <select
+        name="select"
+        class="bg-[#E7EAEE] text-[#64748B] px-[1rem] outline-none cursor-pointer"
+        id=""
+      >
+        <option value="option1">Weekly</option>
+        <option value="option1">Monthly</option>
+        <option value="option1">Yearly</option>
+      </select>
+    </div>
+    <div
+      class="bg-[#E7EAEE] flex justify-center items-center lg:py-[0.5rem] w-full cursor-pointer"
+    >
+      <img
+        src="/assets/public/filter-icons.png"
+        alt=""
+        class="h-[20px] w-[20px]"
+      />
+      <h1 class="text-[#64748B] lg:text-lg text-md">Filter</h1>
+    </div>
+  </div>
+</div>
+  
+    <div class=" lg:flex justify-between items-center gap-1 mr-3">
+      <div class="shadow-lg p-[1rem] mt-2 bg-white w-full lg:h-full">
+        <h1
+          class="text-[#111928] text-md lg:text-xl font-medium whitespace-nowrap"
+        >
+          Total Revenue
+        </h1>
+        <h1 class="py-2 text-md text-[#637381]">This week</h1>
+        <div class="flex flex-row items-center gap-2 pt-[1rem] lg:pt-[2rem]">
+          <h2 class="font-bold text-[#111928] text-xl lg:text-2xl">1368</h2>
+          <h2 class="text-xs lg:text-sm text-[#22AD5C]">0.43%</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            class="main-grid-item-icon"
+            fill="none"
+            stroke="#22AD5C"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <line x1="12" x2="12" y1="19" y2="5" />
+            <polyline points="5 12 12 5 19 12" />
+          </svg>
+          <h1 class="text-[#637381] text-xs lg:text-sm font-normal">
+            Since last week
+          </h1>
+        </div>
+        <div class="py-3">
+          <span id="ProgressLabel" class="sr-only">Loading</span>
+  
+          <span
+            role="progressbar"
+            aria-labelledby="ProgressLabel"
+            aria-valuenow="50"
+            class="block rounded-full bg-gray-200"
+          >
+            <span
+              class="block h-4 rounded-full bg-green-600 text-center text-[10px]/4"
+              style="width: 50%"
+            >
+              <span class="font-bold text-white"> </span>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="shadow-lg p-[1rem] mt-2 bg-white w-full lg:h-full rounded-lg">
+        <h1
+          class="text-[#13C296] text-md lg:text-xl font-medium whitespace-nowrap"
+        >
+          Successful Transactions
+        </h1>
+        <h1 class="py-2 text-md text-[#637381]">This week</h1>
+        <div class="flex flex-row items-center gap-2 pt-[1rem] lg:pt-[2rem]">
+          <h2 class="font-bold text-[#111928] text-xl lg:text-2xl">795</h2>
+          <h2 class="text-xs lg:text-sm text-[#DC3545]">1.39%</h2>
+          <!-- https://feathericons.dev/?search=arrow-down&iconset=feather -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            class="main-grid-item-icon"
+            fill="none"
+            stroke="red"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <line x1="12" x2="12" y1="5" y2="19" />
+            <polyline points="19 12 12 19 5 12" />
+          </svg>
+  
+          <h1 class="text-[#637381] text-xs lg:text-sm font-normal">
+            Since last week
+          </h1>
+        </div>
+        <div class="py-3">
+          <span id="ProgressLabel" class="sr-only">Loading</span>
+  
+          <span
+            role="progressbar"
+            aria-labelledby="ProgressLabel"
+            aria-valuenow="50"
+            class="block rounded-full bg-gray-200"
+          >
+            <span
+              class="block h-4 rounded-full bg-[#0095F6] text-center text-[10px]/4"
+              style="width: 20%"
+            >
+              <span class="font-bold text-white"> </span>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="shadow-lg p-[1rem] mt-2 bg-white w-full lg:h-full rounded-lg">
+        <h1
+          class="text-[#DC3545] text-md lg:text-xl font-medium whitespace-nowrap"
+        >
+          Failed Transactions
+        </h1>
+        <h1 class="py-2 text-md text-[#637381]">This week</h1>
+        <div class="flex flex-row items-center gap-2 pt-[1rem] lg:pt-[2rem]">
+          <h2 class="font-bold text-[#111928] text-xl lg:text-2xl">573</h2>
+          <h2 class="text-xs lg:text-sm text-[#DC3545]">2.69%</h2>
+          <!-- https://feathericons.dev/?search=arrow-up&iconset=feather -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            class="main-grid-item-icon"
+            fill="none"
+            stroke="red"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <line x1="12" x2="12" y1="19" y2="5" />
+            <polyline points="5 12 12 5 19 12" />
+          </svg>
+  
+          <h1 class="text-[#637381] text-xs lg:text-sm font-normal">
+            Since last week
+          </h1>
+        </div>
+        <div class="py-3">
+          <span id="ProgressLabel" class="sr-only">Loading</span>
+  
+          <span
+            role="progressbar"
+            aria-labelledby="ProgressLabel"
+            aria-valuenow="50"
+            class="block rounded-full bg-gray-200"
+          >
+            <span
+              class="block h-4 rounded-full bg-[#DC3545] text-center text-[10px]/4"
+              style="width: 70%"
+            >
+              <span class="font-bold text-white"> </span>
+            </span>
+          </span>
+        </div>
+      </div>
+    
+  </div>
+  
+  <!-- monthly orders line chart -->
+
+ <div class="py-5">
+  <div class="col-span-2  mr-3 bg-green-200 h-[300px] p-[1rem] rounded-lg shadow-md">
+    <h1 class="text-lg text-black font-semibold ">Monthly Orders</h1>
+    <!-- line chart here -->
+    <div class="bg-green-600">
+      <!-- <img src="/assets/public/bar-chart.png" alt=""> -->
+    </div>
+  </div>
+ 
+ </div>
+
+ <!-- start of monthly revenue section -->
+
+ <div class="py-3">
+  <div class="col-span-2  mr-3 bg-green-200 h-[262px] p-[1rem] rounded-lg shadow-md">
+    <h1 class="text-lg text-black font-semibold ">Monthly Revenue</h1>
+    <!-- line chart here -->
+    <div class="bg-green-600">
+      <!-- <img src="/assets/public/bar-chart.png" alt=""> -->
+    </div>
+  </div>
+ 
+ </div>

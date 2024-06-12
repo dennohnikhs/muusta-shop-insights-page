@@ -1,0 +1,155 @@
+<div class="flex flex-col hidden lg:block ">
+    <div
+      class="border border-[#E7EAEE] rounded-lg px-3 flex flex-row gap-2 items-center"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="18"
+        height="18"
+        class="main-grid-item-icon"
+        fill="none"
+        stroke="#64748B"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      >
+        <circle cx="11" cy="11" r="8" />
+        <line x1="21" x2="16.65" y1="21" y2="16.65" />
+      </svg>
+
+      <input
+        type="text"
+        placeholder="search for product"
+        class="py-3 outline-none w-full"
+      />
+    </div>
+    <div class="flex justify-center gap-3 py-[0.5rem]">
+      <div class="bg-[#E7EAEE] flex justify-center items-center w-full">
+        <select
+          name="select"
+          class="bg-[#E7EAEE] text-[#64748B] px-[1rem] outline-none cursor-pointer"
+          id=""
+        >
+          <option value="option1">Weekly</option>
+          <option value="option1">Monthly</option>
+          <option value="option1">Yearly</option>
+        </select>
+      </div>
+      <div
+        class="bg-[#E7EAEE] flex justify-center items-center lg:py-[0.5rem] w-full cursor-pointer"
+      >
+        <img
+          src="/assets/public/filter-icons.png"
+          alt=""
+          class="h-[20px] w-[20px]"
+        />
+        <h1 class="text-[#64748B] lg:text-lg text-md">Filter</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- viewers section -->
+
+  <div class="py-3">
+    <div class="h-[366px] bg-gray-200 p-[1rem] rounded-lg shadow-md" >
+        <!-- bar chart here
+         -->
+         <h1 class="text-lg text-black font-semibold ">viewers</h1>
+    
+        <div>
+          <!-- <img src="/assets/public/bar-chart.png" alt=""> -->
+        </div>
+        <!-- <div class="flex flex-row gap-2 hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            class="main-grid-item-icon"
+            fill="#FECC96"
+            stroke="#FECC96"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="10" />
+          </svg>
+    
+          <h1>Weekly Increase in stock levels</h1>
+        </div>
+    
+        <div class="flex flex-row gap-2  hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            class="main-grid-item-icon"
+            fill="#F29D43"
+            stroke="#F29D43"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="10" />
+          </svg>
+    
+          <h1>Weekly Decrease in stock levels</h1>
+        </div> -->
+      </div>
+  </div>
+
+  <!-- start of payouts frequency section -->
+
+  <div class="py-2">
+    <div class="shadow-lg p-[1rem] rounded-lg h-[316px] shadow-md ">
+        <h1 class="text-lg font-semibold text-[#0095F6] py-3">Payout Frequency</h1>
+    
+        <div class="flex flex-row items-center gap-3 pb-[2rem]">
+          <div
+            class="h-[50px] w-[50px] bg-[#FBD5D5] rounded-lg hidden lg:block"
+          ></div>
+    
+          <div class="whitespace-nowrap font-medium text-md ">
+            <h1 class="py-3">Total Payouts</h1>
+            <div class="flex flex-row items-center gap-3">
+              <span
+                role="progressbar"
+                aria-labelledby="ProgressLabel"
+                class="block rounded-full bg-gray-200 w-[200px]"
+              >
+                <span
+                  class="block h-3 rounded-full bg-[#EA2F2F]"
+                  style="width: 75%"
+                ></span>
+              </span>
+            <div class="text-xs whitespace-nowrap">30% decrease</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex fle-row items-center gap-3 pb-[2rem]">
+          <div
+            class="h-[50px] w-[50px] bg-[#D5FBEB] rounded-lg hidden lg:block"
+          ></div>
+    
+          <div class="whitespace-nowrap font-medium text-md ">
+            <h1 class="py-3">Pending Payouts</h1>
+            <div class="flex flex-row items-center gap-3">
+              <span
+                role="progressbar"
+                aria-labelledby="ProgressLabel"
+                class="block rounded-full bg-gray-200 w-[200px]"
+              >
+                <span
+                  class="block h-3 rounded-full bg-[#2FEA9B]"
+                  style="width: 50%"
+                ></span>
+              </span>
+            <div class="text-xs whitespace-nowrap">50% increase</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
