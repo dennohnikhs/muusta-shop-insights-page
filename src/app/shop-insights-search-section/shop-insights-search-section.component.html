@@ -1,3 +1,5 @@
+<!-- filter section mobile view -->
+
 <div class="flex flex-col hidden lg:block ">
     <div
       class="border border-[#E7EAEE] rounded-lg px-3 flex flex-row gap-2 lg:mt-2 items-center"
@@ -51,8 +53,8 @@
 
   <!-- viewers section -->
 
-  <div class="py-3">
-    <div class="h-[366px] bg-gray-200 p-[1rem] rounded-lg shadow-md" >
+  <div class="py-2">
+    <div class="h-[366px] bg-gray-200  p-[1rem] rounded-lg shadow-md" >
         <!-- bar chart here
          -->
          <h1 class="text-lg text-black font-semibold ">viewers</h1>
@@ -103,50 +105,52 @@
   <!-- start of payouts frequency section -->
 
   <div class="py-2">
-    <div class="shadow-lg p-[1rem] rounded-lg h-[316px] shadow-md ">
+    <div class="shadow-lg p-[1rem] rounded-lg lg:h-[316px] shadow-md overflow-hidden text-ellipsis">
         <h1 class="text-lg font-semibold text-[#0095F6] py-3">Payout Frequency</h1>
     
-        <div class="flex flex-row items-center gap-3 pb-[2rem]">
-          <div
-            class="h-[50px] w-[50px] bg-[#FBD5D5] rounded-lg hidden lg:block"
-          ></div>
-    
-          <div class="whitespace-nowrap font-medium text-md ">
-            <h1 class="py-3">Total Payouts</h1>
-            <div class="flex flex-row items-center gap-3">
-              <span
-                role="progressbar"
-                aria-labelledby="ProgressLabel"
-                class="block rounded-full bg-gray-200 w-[200px]"
-              >
+        <div class="grid grid-cols-2 lg:grid-cols-1">
+          <div class="flex flex-row items-center gap-3 pb-[2rem]">
+            <div
+              class="h-[50px] w-[50px] bg-[#FBD5D5] rounded-lg hidden lg:block"
+            ></div>
+      
+            <div class="whitespace-nowrap font-medium text-md ">
+              <h1 class="py-3">Total Payouts</h1>
+              <div class="flex lg:flex-row flex-col items-center gap-3">
                 <span
-                  class="block h-3 rounded-full bg-[#EA2F2F]"
-                  style="width: 75%"
-                ></span>
-              </span>
-            <div class="text-xs whitespace-nowrap">30% decrease</div>
+                  role="progressbar"
+                  aria-labelledby="ProgressLabel"
+                  class="block rounded-full bg-gray-200 lg:w-[200px] w-[150px]"
+                >
+                  <span
+                    class="block h-3 rounded-full bg-[#EA2F2F]"
+                    style="width: 75%"
+                  ></span>
+                </span>
+              <div class="text-xs whitespace-nowrap overflow-hidden">30% decrease</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex fle-row items-center gap-3 pb-[2rem]">
-          <div
-            class="h-[50px] w-[50px] bg-[#D5FBEB] rounded-lg hidden lg:block"
-          ></div>
-    
-          <div class="whitespace-nowrap font-medium text-md ">
-            <h1 class="py-3">Pending Payouts</h1>
-            <div class="flex flex-row items-center gap-3">
-              <span
-                role="progressbar"
-                aria-labelledby="ProgressLabel"
-                class="block rounded-full bg-gray-200 w-[200px]"
-              >
+          <div class="flex fle-row items-center gap-3 pb-[2rem]">
+            <div
+              class="h-[50px] w-[50px] bg-[#D5FBEB] rounded-lg hidden lg:block"
+            ></div>
+      
+            <div class="whitespace-nowrap font-medium text-md ">
+              <h1 class="py-3">Pending Payouts</h1>
+              <div class="flex lg:flex-row flex-col items-center gap-3">
                 <span
-                  class="block h-3 rounded-full bg-[#2FEA9B]"
-                  style="width: 50%"
-                ></span>
-              </span>
-            <div class="text-xs whitespace-nowrap">50% increase</div>
+                  role="progressbar"
+                  aria-labelledby="ProgressLabel"
+                  class="block rounded-full bg-gray-200 lg:w-[200px] w-[150px]"
+                >
+                  <span
+                    class="block h-3 rounded-full bg-[#2FEA9B]"
+                    style="width: 50%"
+                  ></span>
+                </span>
+              <div class="text-xs whitespace-nowrap overflow-hidden">50% increase</div>
+              </div>
             </div>
           </div>
         </div>
